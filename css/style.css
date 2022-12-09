@@ -66,8 +66,55 @@ body {
     object-fit: cover;
 }
 
-/* stg style  */
+/*---------------------
+ OtC style
+ -------------------------  */
+.fast_DOCKTOR_bg {
+    background-image: url("../img/fast_bg.jpg");
+    height: 200px;
+    width: 90%;
+    background-position: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 10px / 30px;
+}
+
+.fast_DOCKTOR_bg h1 {
+    padding: 20px;
+    color: white;
+    display: inline-block;
+    /* margin-top: 50px; */
+    font-size: 5em;
+}
+
+.otg_card {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+
+}
+
+.otg_card .card {
+    background-color: #a1f4e563;
+    border-radius: 5px;
+}
+
+.otg_card img {
+    /* border: 2px solid green; */
+    padding: 5px;
+    height: 250px;
+}
+
 .otg_card a {
     text-decoration: none;
     font-size: 2em;
+}
+
+/*---------------
+ section section 
+ ------------------ */
+.secent_sec {
+    background-image: url("../img/2_beg.jpg");
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
