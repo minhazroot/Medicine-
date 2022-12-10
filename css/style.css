@@ -5,7 +5,7 @@ body {
 }
 
 .bg-naw {
-    background-color: green;
+    background-color: rgb(3, 162, 162);
 }
 
 .icon_style {
@@ -111,10 +111,34 @@ body {
 /*---------------
  section section 
  ------------------ */
+.secent_sec img {
+    height: 200px;
+
+    width: 50%;
+
+}
+
 .secent_sec {
-    background-image: url("../img/2_beg.jpg");
-    height: 250px;
-    width: 100%;
+    background-image: url("../img/2_beg\ \(2\).jpg");
+    width: 90%;
+    height: 200px;
+    background-position: center;
+
     background-size: cover;
     background-repeat: no-repeat;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 10px / 30px;
+}
+
+.secent_sec h1 {
+    color: orange;
+    display: inline-block;
+    margin-top: 50px;
+    font-size: 4em;
+}
+
+/* ---------------------- */
+/* devise card  */
+.card_height {
+    height: 530px;
 }
